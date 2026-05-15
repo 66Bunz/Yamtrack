@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/administration/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/env-variables/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/local-development/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/media-imports/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/setup/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://FuzzyGrim.github.io/Yamtrack/dev/social-auth/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+</urlset>
