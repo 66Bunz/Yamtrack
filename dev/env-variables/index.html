@@ -797,7 +797,7 @@
 </tr>
 <tr>
 <td><code>HARDCOVER_API</code></td>
-<td>Hardcover API key for books. A default key is provided, but it's recommended to get your own as it has a low rate limit.</td>
+<td>Hardcover API key for books. A default key is provided, but it's recommended to get your own as it has a low rate limit. Custom values must include the <code>Bearer</code> prefix.</td>
 </tr>
 <tr>
 <td><code>COMICVINE_API</code></td>
@@ -818,7 +818,7 @@
 <tbody>
 <tr>
 <td><code>REDIS_URL</code></td>
-<td>Default to <code>redis://localhost:6379</code>. Set this to your Redis server URL, in the format of <code>redis://{service}:{port}</code>. If using a custom network you may need to use <code>redis://{container_nam}:{port}</code>.</td>
+<td>Default to <code>redis://localhost:6379</code>. Set this to your Redis server URL, in the format of <code>redis://{service}:{port}</code>. In the Docker Compose examples this is <code>redis://redis:6379</code>. If Yamtrack shares a Docker network with another container or service named <code>redis</code>, use the Yamtrack Redis container name instead: <code>redis://yamtrack-redis:6379</code>.</td>
 </tr>
 <tr>
 <td><code>CELERY_REDIS_URL</code></td>

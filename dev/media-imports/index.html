@@ -916,6 +916,7 @@
 </ul>
 <h2 id="yamtrack-csv-format">Yamtrack CSV format<a class="headerlink" href="#yamtrack-csv-format" title="Permanent link">&para;</a></h2>
 <p>Use this format to bulk-import media into YamTrack. Every row represents a single media instance.</p>
+<p>The order of rows matters for TV data: import <code>tv</code> rows first, then <code>season</code> rows, then <code>episode</code> rows. Episodes depend on their parent season, and seasons depend on their parent TV show.</p>
 <table>
 <thead>
 <tr>
@@ -942,7 +943,7 @@
 <td>media_type</td>
 <td><strong>Yes</strong></td>
 <td>movie</td>
-<td>One of: <code>tv</code>, <code>season</code>, <code>episode</code>, <code>movie</code>, <code>anime</code>, <code>manga</code>, <code>game</code>, <code>book</code>, <code>comic</code>.</td>
+<td>One of: <code>tv</code>, <code>season</code>, <code>episode</code>, <code>movie</code>, <code>anime</code>, <code>manga</code>, <code>game</code>, <code>book</code>, <code>comic</code>. For TV data, rows must be ordered as <code>tv</code>, then <code>season</code>, then <code>episode</code>.</td>
 </tr>
 <tr>
 <td>title</td>
