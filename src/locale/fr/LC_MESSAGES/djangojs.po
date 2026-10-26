@@ -1,0 +1,95 @@
+# French translation of Yamtrack.
+# This file is distributed under the same license as the Yamtrack package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Yamtrack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 21:53+0000\n"
+"PO-Revision-Date: 2026-10-22 23:54+0200\n"
+"Last-Translator: Nicolas (Nadios-Vistos)\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.10\n"
+
+#: static/js/copy-item.js:67
+msgid ""
+"Could not copy to clipboard. Please select the text and press Ctrl+C/Cmd+C to"
+" copy."
+msgstr ""
+"Impossible de copier dans le presse-papiers. Sélectionnez le texte et faites "
+"Ctrl+C / Cmd+C."
+
+#: static/js/date-range.js:6 static/js/date-range.js:23
+msgid "Last 12 Months"
+msgstr "12 derniers mois"
+
+#: static/js/date-range.js:14
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: static/js/date-range.js:15
+msgid "Yesterday"
+msgstr "Hier"
+
+#: static/js/date-range.js:16
+msgid "This Week"
+msgstr "Cette semaine"
+
+#: static/js/date-range.js:17
+msgid "Last 7 Days"
+msgstr "7 derniers jours"
+
+#: static/js/date-range.js:18
+msgid "This Month"
+msgstr "Ce mois-ci"
+
+#: static/js/date-range.js:19
+msgid "Last 30 Days"
+msgstr "30 derniers jours"
+
+#: static/js/date-range.js:20
+msgid "Last 90 Days"
+msgstr "90 derniers jours"
+
+#: static/js/date-range.js:21
+msgid "This Year"
+msgstr "Cette année"
+
+#: static/js/date-range.js:22
+msgid "Last 6 Months"
+msgstr "6 derniers mois"
+
+#: static/js/date-range.js:24
+msgid "All Time"
+msgstr "Depuis le début"
+
+#: static/js/statistics-charts.js:35 static/js/statistics-charts.js:37
+#: static/js/statistics-charts.js:339
+msgid "Score"
+msgstr "Note"
+
+#: static/js/statistics-charts.js:72
+msgid "Total"
+msgstr "Total"
+
+#: static/js/statistics-charts.js:131
+msgid "Count"
+msgstr "Nombre"
+
+#: static/js/statistics-charts.js:346
+msgid "Number of Items"
+msgstr "Nombre d'éléments"
+
+#: static/js/statistics-charts.js:351
+msgid "item"
+msgid_plural "items"
+msgstr[0] "élément"
+msgstr[1] "élément"
+
+#: static/js/statistics-charts.js:354
+msgid "Average Score"
+msgstr "Note moyenne"
